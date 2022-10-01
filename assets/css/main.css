@@ -26,27 +26,34 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
+footer, header, hgroup, menu, nav, section
+{
+	display: block;
+}
 
-body {
+body
+{
 	line-height: 1;
 }
 
-ol, ul {
+ol, ul
+{
 	list-style: none;
 }
 
-blockquote, q {
+blockquote, q
+{
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
+blockquote:before, blockquote:after, q:before, q:after
+{
+	content: '';
+	content: none;
+}
 
-table {
+table
+{
 	border-collapse: collapse;
 	border-spacing: 0;
 }
