@@ -3876,7 +3876,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.links li.active {
-	background-color: #ffffff;
+	background-color: #dddddd;/*ffffff*/
 }
 
 #nav ul.links li.active a {
@@ -3910,7 +3910,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 /* Main */
 
 #main {
-	background-color: #ffffff;/*#3d3d3d*/
+	background-color: #dddddd;/*#3d3d3d*/
 	position: relative;
 	margin: 0 auto;
 	width: calc(100% - 4rem);
@@ -3920,7 +3920,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #main>* {
 	padding: 4rem 4rem 2rem 4rem;
-	border-top: solid 2px #eeeeee;
+	border-top: solid 2px #808080;/*eeeeee*/
 	margin: 0;
 }
 
@@ -4018,7 +4018,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.posts>article {
-	border-color: #eeeeee;
+	border-color: #808080;/*eeeeee*/
 	border-left-width: 2px;
 	border-style: solid;
 	border-top-width: 2px;
@@ -4469,7 +4469,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 	#footer>section {
-		border-top: solid 2px #e2e2e2;
+		border-top: solid 2px #e2e2e2;/*e2e2e2*/
 	}
 
 	#footer>section:first-child {
