@@ -1,9 +1,16 @@
 <!DOCTYPE HTML>
+
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+	-= Current plan =-
+	
+	- Have rasterizer gif (and make it work)
+	- Create image for games tab (ref kobe: https://discord.com/channels/@me/636578787894755329/1283170805525512264)
+	- update text of:
+		= rasterizer
+		= Games tab (index page) 
+		= HexTopia
+	-->
+	
 <html>
 
 <head>
@@ -22,7 +29,7 @@
 	<div id="wrapper" class="fade-in">
 
 		<!-- Intro -->
-		<div style="display:none" id="test">
+		<div style="display:none">
 			<!-- <h1>This is<br />
 				Massively</h1>
 				<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
@@ -34,135 +41,136 @@
 
 		<!-- Header -->
 		<header id="header">
-			<!-- <a href="index.html" class="logo">Massively</a> -->
 		</header>
+		<!-- <a href="index.html" class="logo">Massively</a> -->
 
 		<!-- Navigation buttons -->
-		<nav   id="nav"><!--style="background-color: #3d3d3d80"-->
+		<nav id="nav"><!--style="background-color: #3d3d3d80"-->
 			<ul class="links">
-				<li class="active">
-					 <a href="index.html">Portfolio</a></li> <!--style="background-color: #3d3d3d; Color: #ff44e0"  -->
-				<li><a  href="CV.html">CV</a></li> <!--style="Color: #ff44e0;" -->
-				<!-- <li><a href="generic.html">Generic Page</a></li> -->
-				<!-- <li><a href="elements.html">Elements Reference</a></li> -->
+				<li class="active"><a href="index.html">Portfolio</a></li>
+				<li><a  href="CV.html">CV</a></li>
 			</ul>
 			<ul class="icons">
-				<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
 				<li><a href="https://github.com/GlennQuintyn" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>				
-				<!-- <li><a href="glenn.quintyn@gmail.com" target="_blank" class="icon brands fa-envelope"><span class="label">Email</span></a></li> -->
 				<li><a href="https://www.linkedin.com/in/glenn-quintyn-035147253/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 			</ul>
 		</nav>
 
 		<!-- Main -->
-		<div id="main" margin="1,1,1,1">
-
+		<div id="main">
 			<!-- Featured Post -->
 			<article class="post featured">
 				<header class="major">
-					<!-- <span class="date">April 25, 2017</span> -->
-					<h1><a href="#">Glenn Quintyn</a></h1><!--style="color: #ff44e0"-->
-					<p >Hello!<br><!--style="color: #cc44ff" text-allign-->
-						Welcome to my Portfolio webpage. I am Currently a student at
-						Howest University of Applied Sciences in the Branch Digital Arts and Entertainment.
-						Major: Game Developer.
+					<h1><a href="#">Glenn Quintyn</a></h1>
+					<p >
+						Hello!<br>
+						Welcome to my Portfolio page. I am young enthusiastic software developer with a thirst for knowledge.<br>
+						Currently working as VR Unity software developer making tailor fitted VR trainings for B2B.<br><br>
+						I have a bachelor from Howest University of Applied Sciences in the Branch Digital Arts and Entertainment.<br>
+						Major: Game Development.
 					</p>
 				</header>
-				<!-- <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a> -->
-				<!-- <ul class="actions special">
-					<li><a href="#" class="button large">Full Story</a></li>
-				</ul> -->
 			</article>
 
 			<!-- Posts -->
-			<section class="posts">
+			<section class="posts">				
+				<!-- Rasterizer Soft/Hard -->
 				<article>
+					<div>
+						<header>
+							<h2>
+								<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank">Rasterizer</a>
+							</h2>
+						</header>
+						<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank" class="image fit">
+							<!-- <img src="images/Rasterizer.PNG" alt="" /> -->
+							<video src="images/RasterizerVideoLooping.mp4" autoplay="true" muted loop="true" width="100%" height="100%" type="video/mp4">
+
+							</video>
+						</a>
+						<p>
+							This is a small and simple Rasterizer made in C++.
+							This rasterizer has both a software (CPU) and GPU hardware accelerated implementation (<b>DirectX11</b>).
+							You can seamlessly switch between these at runtime and move around the camera in 3D space.
+							With some debugging features.
+						</p>
+					</div>
+					<ul class="actions special">
+						<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank" class="button">Github</a>
+					</ul>
+				</article>
+				<!-- Game engine with Burger Time arcade game -->
+				<article>
+					<div>
+						<header>
+							<h2><a href="https://github.com/GlennQuintyn/NightOwlEngine" target="_blank">Engine with arcade game</a></h2>
+						</header>
+						<a href="https://github.com/GlennQuintyn/NightOwlEngine" target="_blank" class="image fit">
+							<img src="images/GameEngineBurgerTime.jpg"/>
+						</a>
+						<p>
+							This project is a combination of a small 2D Component based game engine written in C++.
+							With the other part being an arcard game called <u><i>Burger Time</i></u>,
+							proving that the game engine can indeed be used to make and run games in.
+						</p>
+					</div>
+					<ul class="actions special">
+						<a href="https://github.com/GlennQuintyn/NightOwlEngine" target="_blank" class="button">Github</a>
+					</ul>
+				</article>
+				<!-- Group Projects tab -->
+				<article>
+					<div>
+						<header>
+							<h2><a href="Games.html">Games</a></h2>
+						</header>
+						<a href="Games.html" class="image fit"><img src="images/Games.png"/></a>
+						<p>
+							As Game Developer in Digital Arts and Entertainment I have made many games.
+							This corner of my website showcases my favorite projects I have made in that time.
+							This page cotains both Group projects as solo projects.
+						</p>
+					</div>
+					<ul class="actions special">
+						<a href="Games.html" class="button">Explore Games</a>
+					</ul>
+				</article>
+				<!-- Art Corner -->
+				<article>
+					<div>
+						<header>
+							<h2><a href="ArtCorner.html">Art pipeline</a></h2>
+						</header>
+						<a href="ArtCorner.html" class="image fit"><img src="images/ArtPipleLine.png"/></a>
+						<p>
+							In Digital Arts and Entertainment as Game Developer we focus on the programming aspect,
+							but we are still technical artists, so we get a good look at the Art pipeline for 3D assets.
+						</p>
+					</div>
+					<ul class="actions special">
+						<a href="ArtCorner.html" class="button">Explore ArtCorner</a>
+					</ul>
+				</article>
+
+
+
+				<!-- Raytracer -->
+				<!-- <article>
 					<header>
-						<h2 style="padding-bottom: 2rem;">
-							<a href="https://gomorrah-dotd.itch.io/time-is-life" target="_blank">Time is life</a>
+						<h2>
+							<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank">Raytracer</a>
 						</h2>
 					</header>
-					<a href="https://gomorrah-dotd.itch.io/time-is-life" target="_blank" class="image fit">
-						<img src="images/TimeIsLife.png" style="max-height: 500px;" alt="" />
+					<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank" class="image fit">
+						<img src="images/pic01.jpg" alt="" />
 					</a>
 					<p>
-						This is a group project that i was part of as one of the programmers.
-						I mainly focused on the player character code including animation logic, the bullet manager,
-						the UI and main menu logic and the collecibles in the chests logic.
+						This is a small and simple software raytracer.
 					</p>
-					<ul class="actions special">
-						<li><a href="https://gomorrah-dotd.itch.io/time-is-life" target="_blank" class="button">Itch.io Page</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="https://github.com/GlennQuintyn/NightOwlEngine" target="_blank">Game Engine with arcade game</a></h2>
-					</header>
-					<a href="https://github.com/GlennQuintyn/NightOwlEngine" target="_blank" class="image fit"><img src="images/GameEngineBurgerTime.jpg" alt="" /></a>
-					<p>
-						In this project i made a small and very simple 2D game engine. To prove that my simple engine is indeed an engine,
-						I made the simple arcade game called Burger Time to prove this.
-					</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/GlennQuintyn/NightOwlEngine" target="_blank" class="button">Github</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="#">Unity Game</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/UnityImage.PNG" alt="" /></a>
-					<p>
-						A simple hack and slash Unity game where you go through waves of enemies and upgrade yourself after each big wave of enemies.
-						You keep going until you can defeat the final boss or die trying.
-					</p>
-					<ul class="actions special">
-						<li><a href="Downloads/A-knights-Last-Stand-Build.rar" class="button">Download</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="#">Unreal Stealth Game</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/HighresScreenshot00001.png" alt="" /></a>
-					<p>
-						This was my first unreal game. The game is a simple yet difficult stealth game.
-						You walk around an evil corperation to find the blueprints and get out safely.
-						The special twist is that time moves when you move.
-					</p>
-					<ul class="actions special">
-						<li><a href="https://drive.google.com/drive/folders/1oyC7ezuyWN4A7DmdQ_aFE_VwinabGM2A?usp=sharing"
-							target="_blank" class="button">Download</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank">Rasterizer</a></h2>
-					</header>
-					<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank" class="image fit"><img src="images/Rasterizer.PNG" alt="" /></a>
-					<p>
-						This is a small and simple Rasterizer. This rasterizer project can use both softare and hardware accelerated rasterization
-						methods. This can be toggled during runtime, to go from simple model data to an image on your screen. 
-					</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank" class="button">Github</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="ArtCorner.html">Art pipeline</a></h2>
-					</header>
-					<a href="ArtCorner.html" class="image fit"><img src="images/ArtPipleLine.png" alt="" /></a>
-					<p>
-						In Digital Arts and Entertainment as Game Developer we focus on the programming aspect,
-						but we are still technical artists, so we get a good look at the Art pipeline for 3D assets.
-					</p>
-					<ul class="actions special">
-						<li><a href="ArtCorner.html" class="button">Explore ArtCorner</a></li>
-					</ul>
-				</article>
+					<div class="actions special">
+						<a href="https://github.com/GlennQuintyn/Rasterizer" target="_blank" class="button">Github</a>
+					</div>
+				</article> -->
 			</section>
 
 			<!-- Footer -->
